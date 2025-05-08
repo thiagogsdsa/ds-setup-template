@@ -2,6 +2,6 @@ data/*
 models/*
 .env
 
-# Exceções (não ignora arquivos específicos)
-!data/.gitkeep    # Arquivo de controle na pasta 'data'
-!models/.gitkeep  # Arquivo de controle na pasta 'models'
+# Exceptions (do not ignore specific control files)
+!data/.gitkeep    # Keep the 'data' folder tracked
+!models/.gitkeep  # Keep the 'models' folder tracked
