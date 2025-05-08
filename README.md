@@ -1,15 +1,26 @@
-# Data Science Project Setup Template
+# DS Setup Template
 
-This repository provides a simple and professional folder structure for starting data science projects from scratch.  
-It includes pre-defined directories, a `requirements.txt` file, a `setup.py` placeholder, and a `.gitignore` file tailored for typical data workflows.
+A basic and clean folder structure to quickly set up Data Science projects.  
+It includes common directories for data, notebooks, models, source code, and configuration files.
 
 ## Features
 
-- Clean and modular directory layout
-- `.gitkeep` files to preserve empty folders in version control
-- Auto-generated boilerplate files (`README.md`, `.gitignore`, etc.)
-- Easy to expand for machine learning, data pipelines, and visualization
+- Standard folders for raw, processed, interim, and external data
+- Modular code structure under `src/`
+- Predefined `requirements.txt` and `setup.py`
+- GitHub Actions workflow support via `.github/workflows/`
+- Includes `.gitkeep` files to track empty directories in version control
 
-## Usage
+## Getting Started
 
-Clone the repository or use it as a template
+You can start in two ways:
+
+### 1. Use as Template (Recommended)
+Create a new repository using this one as a template:  
+[Use this template](https://github.com/thiagogsdsa/ds-setup-template/generate)
+
+### 2. Clone Manually
+
+```bash
+git clone https://github.com/thiagogsdsa/ds-setup-template.git
+cd ds-setup-template
